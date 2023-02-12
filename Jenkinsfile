@@ -45,7 +45,7 @@ pipeline {
 
           }
           steps {
-            sh './mvnw'
+            sh './mvnw verify'
           }
         }
 
